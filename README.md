@@ -1,14 +1,14 @@
 # RustSample
 Rust sample : soccer championship management
 
-This program does not fill all the functionalities it shoud. It is only a basis of soccer championship management program.
+This program does not fill all the functionalities it should. It is only a basic soccer championship management program.
 
-To make this program work, first install cargo : https://crates.io/
-
-then after compiling, you will be able to use the program.
+Perform the following steps to use this program:
+- Install cargo : https://crates.io/ .
+- Compile ```rustc src/main.rs``` .
+- Execute ```./src/main``` .
 
 This championship management program works running command from shell.
-
 With cargo, you have to write cargo run -- [arg]
 
 with [arg] among the below arguments:
@@ -20,4 +20,4 @@ with [arg] among the below arguments:
     teams       shows teams list
     update      updates one result of the championship
     
-when using update subcommand, you need to specify 3 arguements corresponding respectively to the id of the match you want to update, the id of the receiving team, and the id of the coming team.
+when using update subcommand, you need to specify 3 arguments corresponding respectively to the id of the match you want to update, the id of the receiving team, and the id of the coming team.
